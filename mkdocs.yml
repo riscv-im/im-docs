@@ -1,0 +1,92 @@
+site_name: 实时通讯系统
+repo_url: https://riscv-frontend-riscv.app.secoder.net/
+repo_name: Try Our Product
+
+nav:
+  - 简介: index.md
+  - 项目结构: struct.md
+  - 使用说明: API/UserManual.md
+  - 协议文档:
+    - Websocket协议: API/websocket.md
+    - HTTP协议: API/http.md
+  - 开发规范: criterion.md
+  
+
+theme:
+  name: material
+  language: zh
+  custom_dir: theme/
+  features:
+    - navigation.top
+    - navigation.tabs
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    # - content.code.select
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      primary: cyan
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: blue grey
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    code: consolas
+
+extra_javascript:
+  - 'https://cdn.jsdelivr.net/npm/mathjax@2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
+plugins:
+  - search
+  - glightbox
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+      locale: zh
+  # - git-authors:
+  #     show_contribution: true
+  #     show_line_count: true
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - footnotes
+  - def_list
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  # - pymdownx.emoji:
+  #     emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - meta
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.keys
+  - pymdownx.snippets
+  - pymdownx.progressbar
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.superfences:
+      custom_fences:
+        - name: math
+          class: arithmatex
+          format: !!python/name:pymdownx.arithmatex.fence_mathjax_format
