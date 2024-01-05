@@ -9,8 +9,6 @@
       
       
       
-        <link rel="prev" href="../API/http/">
-      
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -18,7 +16,7 @@
     
     
       
-        <title>开发规范 - 实时通讯系统</title>
+        <title>API协议 - 实时通讯系统</title>
       
     
     
@@ -81,7 +79,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#api" class="md-skip">
           跳转至
         </a>
       
@@ -115,7 +113,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              开发规范
+              API协议
             
           </span>
         </div>
@@ -293,11 +291,9 @@
         
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="./" class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../criterion/" class="md-tabs__link">
         
   
     
@@ -536,28 +532,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    开发规范
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../criterion/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -566,99 +544,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="目录">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      项目开发规范
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="项目开发规范">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#issue" class="md-nav__link">
-    <span class="md-ellipsis">
-      Issue 规范
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#branch" class="md-nav__link">
-    <span class="md-ellipsis">
-      Branch 规范
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Branch 规范">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#feat" class="md-nav__link">
-    <span class="md-ellipsis">
-      开发分支：feat/(功能描述)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fix" class="md-nav__link">
-    <span class="md-ellipsis">
-      修复分支：fix/(问题描述)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#dev" class="md-nav__link">
-    <span class="md-ellipsis">
-      开发主干分支：dev
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#master" class="md-nav__link">
-    <span class="md-ellipsis">
-      主分支：master
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -680,89 +565,8 @@
   
   
   
+    
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      项目开发规范
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="项目开发规范">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#issue" class="md-nav__link">
-    <span class="md-ellipsis">
-      Issue 规范
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#branch" class="md-nav__link">
-    <span class="md-ellipsis">
-      Branch 规范
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Branch 规范">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#feat" class="md-nav__link">
-    <span class="md-ellipsis">
-      开发分支：feat/(功能描述)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fix" class="md-nav__link">
-    <span class="md-ellipsis">
-      修复分支：fix/(问题描述)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#dev" class="md-nav__link">
-    <span class="md-ellipsis">
-      开发主干分支：dev
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#master" class="md-nav__link">
-    <span class="md-ellipsis">
-      主分支：master
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -778,42 +582,10 @@
                   
 
 
-  <h1>开发规范</h1>
-
-<h2 id="_1">项目开发规范<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
-<h3 id="issue">Issue 规范<a class="headerlink" href="#issue" title="Permanent link">&para;</a></h3>
-<ul>
-<li>创建新issue时，标题为 <strong>[功能ID] + 需求描述/预期行为</strong></li>
-<li>issue 在每次小组例会讨论后批量发布，如果确有新需求出现也可以在动态添加</li>
-<li>issue 任务会指派负责人，负责人可在微信、issue评论区或开发文档中实时更新进度</li>
-<li>为issue 添加 feature/bug/enhancement/finished 等标签，以区分种类和状态</li>
-<li>根据功能的重要程度与紧迫性，为issue设置优先级，并按从高到低的顺序进行开发</li>
-</ul>
-<h3 id="branch">Branch 规范<a class="headerlink" href="#branch" title="Permanent link">&para;</a></h3>
-<h4 id="feat">开发分支：<strong>feat/(功能描述)</strong><a class="headerlink" href="#feat" title="Permanent link">&para;</a></h4>
-<ul>
-<li>各个子功能的开发从dev分支新建feature分支</li>
-<li>功能开发完毕，开发者提交PullRequest，请求合并到dev分支</li>
-<li>分项目管理员进行CodeReview后决定是否合并到dev分支，并处理合并冲突</li>
-</ul>
-<h4 id="fix">修复分支：<strong>fix/(问题描述)</strong><a class="headerlink" href="#fix" title="Permanent link">&para;</a></h4>
-<ul>
-<li>如果dev分支存在问题或不足，从中新建fix分支</li>
-<li>问题修复完毕，开发者提交PullRequest，请求合并到dev分支</li>
-<li>项目的初次commit一般都提交到特定的feature或fix分支</li>
-</ul>
-<h4 id="dev">开发主干分支：<strong>dev</strong><a class="headerlink" href="#dev" title="Permanent link">&para;</a></h4>
-<ul>
-<li>预发布版本，由分项目管理员维护</li>
-<li>虽然分项目管理员有权限向dev分支提交commit，但模块化的功能开发需要新建feature和fix分支再进行</li>
-<li>包含CI功能，进行全面的集成测试</li>
-</ul>
-<h4 id="master">主分支：<strong>master</strong><a class="headerlink" href="#master" title="Permanent link">&para;</a></h4>
-<ul>
-<li>主分支是稳定的版本，不能直接进行开发；除初始化，不允许直接向主分支提交commit</li>
-<li>每次大例会前从dev分支合并到master分支，进行产品功能交付</li>
-<li>包含CD功能，实时更新部署</li>
-</ul>
+<h1 id="api">API协议<a class="headerlink" href="#api" title="Permanent link">&para;</a></h1>
+<p>综合http和websocket协议的特点，设计了一套自己的API体系，以便于实现高效的通信。</p>
+<p>http协议主要用于登录、注册、修改个人信息、大型文件传输等</p>
+<p>websocket协议主要用于实时通信，如聊天、好友操作、群聊管理等</p>
 
 
 
@@ -834,7 +606,7 @@
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2024年1月4日</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2024年1月5日</span>
   </span>
 
     
