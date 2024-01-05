@@ -208,7 +208,7 @@ data字段
 
 ## `/change_password`
 
-更改用户名
+更改用户密码
 
 ### POST
 
@@ -258,7 +258,7 @@ data字段
 
 ## `/change_email`
 
-更改用户名
+更改邮箱
 
 ### POST
 
@@ -309,7 +309,7 @@ data字段
 
 ## `/change_image`
 
-更改用户名
+更改用户头像
 
 ### POST
 
@@ -536,7 +536,7 @@ data字段
 
 ## `/upload_voice`
 
-群聊上传表情
+群聊上传语音
 
 ### POST
 

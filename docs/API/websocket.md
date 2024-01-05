@@ -1,4 +1,4 @@
-# IM Websocket Protocol
+# Websocket API
 
 ## 关键字解释
 
