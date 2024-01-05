@@ -6,7 +6,7 @@ nav:
   - 简介: index.md
   - 项目结构: struct.md
   - 使用说明: API/UserManual.md
-  - 协议文档:
+  - 协议文档: protocol.md
     - Websocket协议: API/websocket.md
     - HTTP协议: API/http.md
   - 开发规范: criterion.md
