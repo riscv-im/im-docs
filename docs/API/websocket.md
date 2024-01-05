@@ -92,7 +92,6 @@ INVITE_ROOM_MEMBER = 2 # 群主或群管理员邀请新的群成员
 EXIT_ROOM = 3 # 退出群
 KICK_ROOM_MEMBER = 4 # 踢出群聊
 CHANGE_ROOM_NAME = 5 # 修改群名
-CHANGE_ROOM_IMAGE = 6 # 修改群头像
 DELETE_ROOM = 7 # 解散群
 DELETE_MESSAGE = 8 # 删除消息
 RECALL_MESSAGE = 9 # 撤回消息
@@ -459,18 +458,6 @@ SEND_INVITE_ROOM_MEMBER_REQUEST = 28 # 普通群成员邀请新的群成员
     }
 }
 ```
-
-### 6 - 修改群头像
-
-#### 发请求时机
-
-​	群成员点击群聊成员页的"修改群头像"按钮
-
-#### 请求
-
-还没想好，之后补全
-
-#### 响应
 
 ### 7 - 解散群（已完成）
 
